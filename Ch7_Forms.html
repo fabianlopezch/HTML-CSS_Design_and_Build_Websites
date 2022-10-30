@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Website Design Request</h1>
+        <h3>Fill out the form to request a design</h3>
+        <hr>
+        <form action="http//:www.example.com/request.php" method="post">
+        
+            <h3>Name</h3>
+            <label for="username">First Name</label>
+            <input type="text" id="userName" name="username" required="required" /><br>
+            <label for="userLastName">Last Name</label>
+            <input type="text" id="userLastName" name="userLastName" required="required" />
+                           
+            <label for="email"><h3>E-mail</h3></label>
+            <input type="email" id="email" name="userEmail" required="required" placeholder="ex:username@example.com"/>
+            
+            <label for="phoneNumber"><h3>Phone Number</h3></label>
+            <input type="text" id="phoneNumber" name="phoneNumber" required="required" placeholder="+00 000-0000"/>
+
+            <label for="company"><h3>Company</h3></label>
+            <input type="text" id="company" name="company" required="required" />
+
+            <label for="typeBusiness"><h3>Type of Bussines</h3></label>
+            <select id="typeBusiness" name="typeBusiness">
+                <option value="Technology">Technology</option>
+                <option value="Food">Food</option>
+                <option value="Finance">Finance</option>
+                <option value="Beauty">Beauty</option>
+            </select>
+
+            <label for="typeWebsite"><h3>Type of Website You Need?</h3></label>
+            <select id="typeWebsite" name="typeWebsite">
+                <option value="Personal">Personal</option>
+                <option value="Educational">Educational</option>
+                <option value="Sport">Sport</option>
+                <option value="Food">Food, restaurant</option>
+                <option value="LocalBusiness">Local Business</option>
+                <option value="SmallBusiness">Small Business</option>
+                <option value="MediumBusiness">Medium Business</option>
+            </select>
+
+            <label for="ItemsNavigation"><h3>Choose Items for the Navigation Bar</h3></label>
+            <div id="ItemsNavigation">
+                <input type="checkbox" name="ItemsNavigation" value="About"/>About <br /> 
+                <input type="checkbox" name="ItemsNavigation" value="FAQ" />FAQ <br />
+                <input type="checkbox" name="ItemsNavigation" value="User Guide" />User Guide <br />
+                <input type="checkbox" name="ItemsNavigation" value="Forum" />Forum <br />
+                <input type="checkbox" name="ItemsNavigation" value="Blog" />Blog <br />
+                <input type="checkbox" name="ItemsNavigation" value="Pricing" />Pricing <br />
+            </div>
+
+            <label for="moreItems"><h3>More Items</h3></label>
+            <textarea id="moreItems" name="moreItems" placeholder="Login, Carrers..." cols="50" rows="6"></textarea>
+
+            <label for="addServices"><h3>Additional Services</h3></label>
+            <div id="addServices">
+                <input type="checkbox" name="addServices" value="Banner" />Banner Design <br />
+                <input type="checkbox" name="addServices" value="LadingPage" />Lading Page Design <br />
+                <input type="checkbox" name="addServices" value="Advertisement" />Advertisement Management <br />
+                <input type="checkbox" name="addServices" value="Video" />Video <br/>
+                <input type="checkbox" name="addServices" value="Analytics" />Analytics <br />
+            </div>
+
+            <label for="AddComments"><h3>Additional Comments</h3></label>
+            <textarea id="AddComments" name="addComments" placeholder="Leave your additional comments..." cols="50" rows="6"></textarea>
+
+            <br /><br />
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
