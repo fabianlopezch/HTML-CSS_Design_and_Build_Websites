@@ -1,0 +1,111 @@
+body
+{
+    background-color: silver;
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+    background-color: #ffffff;
+    background-color: hsla(0,100%,100%,0.5);
+    color: #64645A;
+    padding: inherit;
+}
+
+p
+{
+    padding: 5px;
+    margin: 0px;
+}
+
+p._1900
+{
+    background-color: rgb(255,132, 0);
+}
+
+p._2300
+{
+    background-color: rgb(255,151, 50);
+}
+
+p._2600
+{
+    background-color: rgb(255,163, 79)
+}
+
+p._2850
+{
+    background-color: rgb(255,172, 99);
+}
+
+p._3200
+{
+    background-color: rgb(255,184, 123);
+}
+
+p._4000
+{
+    background-color: rgb(255,206, 166);
+}
+
+p._4600
+{
+    background-color: #FFDCBF;
+    color: silver;
+}
+
+p._5200
+{
+    background-color: #FFE8D5;
+    color: silver;
+}
+
+p._5400
+{
+    background-color: hsl(28, 100%, 93%);
+    color: rgb(121, 121, 121);
+}
+
+p._6000
+{
+    background-color: #FFF6ED;
+    color: black;
+}
+
+p._7000
+{
+    background-color: #F3F2FF;
+    color: black;
+}
+
+p._7500
+{
+    background-color: #E6EBFF;
+    color: black;
+}
+
+p._8000
+{
+    background-color: #DDE6FF;
+    color: black;
+}
+
+p._10000
+{
+    background-color: #CADAFF;
+    color: black;
+}
+
+p._15000
+{
+    background-color: #B5CDFF;
+    color: black;
+}
+
+p._20000
+{
+    background-color: rgb(64, 156, 255);
+    color: black;
+}
